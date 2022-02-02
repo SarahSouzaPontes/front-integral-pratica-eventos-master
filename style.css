@@ -1,0 +1,89 @@
+*{
+padding: 0;
+margin:0;
+}
+header{
+    background: black;
+    position: fixed;
+    width: 120px;
+    left:0;
+    height: 100vh;
+}
+.menu2, .menu3, .menu4 {
+    display: flex;
+    color: white;
+}
+.fig{
+    display:flex;
+    flex-direction: column;
+    margin-right: 10px;
+    margin-left: 30px;
+    margin-right: 10px;
+    position: relative;
+}
+main{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.pag{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding:80px;
+}
+.menu4{
+    position: fixed;
+    bottom: 0;
+}
+span{
+    color:gray
+}
+ul p{
+    display: none;
+}
+.backgroundColor{
+    position:fixed;
+    display: none;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background:rgba(0, 0, 0, 0.6);
+}
+.posicaoFixed1{
+    position: fixed;
+    top:10px;
+    right: 10px;
+    z-index: 2;
+}
+.posicaoFixed2{
+    position: fixed;
+    top:40vh;
+    right: 80px;
+}
+.posicaoFixed3{
+    position: fixed;
+    top:40vh;
+    left: 80px;
+}
+.escondido{
+    display: none;
+}
+.like{
+    width:25px;
+    position: absolute;
+    right: 10px;
+    top:10px;
+
+}
+.likeModal{
+    position:fixed;
+    right:400px;
+    top:150px;
+}
